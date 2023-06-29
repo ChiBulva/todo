@@ -1,0 +1,77 @@
+[
+    {
+        "description": "Choose a suitable location for your garden",
+        "detail": "Consider factors such as sunlight, soil quality, and accessibility.",
+        "help_links": [
+            {
+                "name": "How to choose the right location for a garden",
+                "url": "https://www.youtube.com/results?search_query=how+to+choose+the+right+location+for+a+garden"
+            },
+            {
+                "name": "Tips for selecting a garden site",
+                "url": "https://www.google.com/search?q=tips+for+selecting+a+garden+site"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Prepare the soil for planting",
+        "detail": "Test the soil, remove weeds, and add organic matter if needed.",
+        "help_links": [
+            {
+                "name": "Soil testing guide for gardening",
+                "url": "https://www.youtube.com/results?search_query=soil+testing+guide+for+gardening"
+            },
+            {
+                "name": "How to prepare garden soil for planting",
+                "url": "https://www.google.com/search?q=how+to+prepare+garden+soil+for+planting"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Choose and purchase appropriate plants or seeds",
+        "detail": "Consider the type of plants suitable for your location and personal preferences.",
+        "help_links": [
+            {
+                "name": "Selecting the right plants for your garden",
+                "url": "https://www.youtube.com/results?search_query=selecting+the+right+plants+for+your+garden"
+            },
+            {
+                "name": "How to choose and buy plants/seeds for gardening",
+                "url": "https://www.google.com/search?q=how+to+choose+and+buy+plants+seeds+for+gardening"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Plant and water the chosen plants or sow the seeds",
+        "detail": "Follow the proper planting techniques and provide adequate watering.",
+        "help_links": [
+            {
+                "name": "Planting techniques for different types of plants",
+                "url": "https://www.youtube.com/results?search_query=planting+techniques+for+different+types+of+plants"
+            },
+            {
+                "name": "How to water plants effectively",
+                "url": "https://www.google.com/search?q=how+to+water+plants+effectively"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Provide ongoing care and maintenance for the garden",
+        "detail": "Regularly weed, fertilize, and monitor the health of your plants.",
+        "help_links": [
+            {
+                "name": "Tips for garden maintenance",
+                "url": "https://www.youtube.com/results?search_query=tips+for+garden+maintenance"
+            },
+            {
+                "name": "How to care for a garden",
+                "url": "https://www.google.com/search?q=how+to+care+for+a+garden"
+            }
+        ],
+        "completed": false
+    }
+]

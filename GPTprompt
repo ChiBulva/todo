@@ -1,0 +1,39 @@
+Lets create a JSON object with tasks required to: <What You Wanna Do>
+Following this scheema?
+
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "description": {
+                "type": "string"
+            },
+            "detail": {
+                "type": "string"
+            },
+            "help_links": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "url": {
+                            "type": "string",
+                            "format": "youtube search of 'how to ' + name uri",
+                            "format": "google search of 'how to ' + name uri"
+                        }
+                    },
+                    "required": ["name", "url"]
+                }
+            },
+            "completed": {
+                "type": "boolean"
+            }
+        },
+        "required": ["description", "detail", "help_links", "completed"]
+    }
+}

@@ -1,0 +1,76 @@
+[
+    {
+        "description": "Project Setup and Configuration",
+        "detail": "Install Flask and SQLAlchemy, and setup your application to use SQLAlchemy.",
+        "help_links": [
+            {
+                "name": "Flask",
+                "url": "https://flask.palletsprojects.com/"
+            },
+            {
+                "name": "SQLAlchemy",
+                "url": "https://www.sqlalchemy.org/"
+            }
+        ],
+        "completed": true
+    },
+    {
+        "description": "Database Model",
+        "detail": "Create a `Projects` model with fields for title, description, steps involved, tags, videos and other fields you wish to include.",
+        "help_links": [
+            {
+                "name": "SQLAlchemy Models",
+                "url": "https://flask-sqlalchemy.palletsprojects.com/en/2.x/models/"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Web Pages (Routes and Views)",
+        "detail": "Create routes for the home page, individual project pages, adding a new project and editing existing projects.",
+        "help_links": [
+            {
+                "name": "Flask Routing",
+                "url": "https://flask.palletsprojects.com/en/1.1.x/tutorial/views/"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Styling and User Interface",
+        "detail": "Use Bootstrap or another CSS framework to style your pages and improve the user interface.",
+        "help_links": [
+            {
+                "name": "Bootstrap",
+                "url": "https://getbootstrap.com/"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Deployment",
+        "detail": "Setup a WSGI server and a way to access your site over the internet.",
+        "help_links": [
+            {
+                "name": "Gunicorn",
+                "url": "https://gunicorn.org/"
+            },
+            {
+                "name": "uWSGI",
+                "url": "https://uwsgi-docs.readthedocs.io/en/latest/"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Additional Features",
+        "detail": "Implement search functionality using tags, user authentication, and consider adding a blog or update page.",
+        "help_links": [
+            {
+                "name": "Flask User Authentication",
+                "url": "https://flask-login.readthedocs.io/en/latest/"
+            }
+        ],
+        "completed": false
+    }
+]

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .completed {
+        text-decoration: line-through;
+    }
+
+    .task-completion {
+        margin-right: 10px;
+    }
+
+    @media screen and (max-width: 768px) {
+        li {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+</style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.task-completion').click(function(){
+                var taskId = $(this).data('id');
+                var todoList = "{{ list_name }}";
+                $.ajax({
+                    url: '/todo/' + todoList + '/complete_task/' + taskId,
+                    type: 'POST',
+                    success: function(response){
+                        location.reload();
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>{{ list_name }} - Task List</h1>
+    <ul>
+        {% for task in tasks %}
+        <li class="{{ 'completed' if task.completed }}">
+            <input class="task-completion" type="checkbox" data-id="{{ loop.index0 }}" {{ 'checked' if task.completed }}> 
+            <h2>{{ task.description }}</h2>
+            <p>{{ task.detail }}</p>
+            <p>Helpful links: <br>
+                {% for link in task.help_links %}
+                    <a href="{{ link.url }}">{{ link.name }}</a> 
+                    <br>
+                {% endfor %}
+            </p>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

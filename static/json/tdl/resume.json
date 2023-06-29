@@ -1,0 +1,92 @@
+[
+    {
+        "description": "Review current resume",
+        "detail": "Go through your existing resume and assess its content, layout, and formatting.",
+        "help_links": [
+            {
+                "name": "How to Review and Improve Your Resume",
+                "url": "https://www.youtube.com/results?search_query=how+to+review+and+improve+resume"
+            },
+            {
+                "name": "Resume Improvement Tips",
+                "url": "https://www.google.com/search?q=resume+improvement+tips"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Update work experience section",
+        "detail": "Add any new work experiences, include relevant details and achievements.",
+        "help_links": [
+            {
+                "name": "How to Update Work Experience on Resume",
+                "url": "https://www.youtube.com/results?search_query=how+to+update+work+experience+on+resume"
+            },
+            {
+                "name": "Tips for Writing Work Experience Section",
+                "url": "https://www.google.com/search?q=tips+for+writing+work+experience+section+in+resume"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Enhance skills and qualifications section",
+        "detail": "Include any new skills or qualifications acquired since the last update.",
+        "help_links": [
+            {
+                "name": "How to Highlight Skills on Resume",
+                "url": "https://www.youtube.com/results?search_query=how+to+highlight+skills+on+resume"
+            },
+            {
+                "name": "Tips for Writing Skills and Qualifications",
+                "url": "https://www.google.com/search?q=tips+for+writing+skills+and+qualifications+in+resume"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Update education details",
+        "detail": "Include any new degrees, certifications, or courses completed.",
+        "help_links": [
+            {
+                "name": "How to Update Education on Resume",
+                "url": "https://www.youtube.com/results?search_query=how+to+update+education+on+resume"
+            },
+            {
+                "name": "Tips for Listing Education in Resume",
+                "url": "https://www.google.com/search?q=tips+for+listing+education+in+resume"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Revise summary and objective statements",
+        "detail": "Craft a compelling summary and objective that align with your career goals.",
+        "help_links": [
+            {
+                "name": "How to Write Resume Summary Statement",
+                "url": "https://www.youtube.com/results?search_query=how+to+write+resume+summary+statement"
+            },
+            {
+                "name": "Tips for Writing Resume Objective",
+                "url": "https://www.google.com/search?q=tips+for+writing+resume+objective"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Format and style adjustments",
+        "detail": "Make sure the overall layout, font, and styling are consistent and visually appealing.",
+        "help_links": [
+            {
+                "name": "How to Format a Resume",
+                "url": "https://www.youtube.com/results?search_query=how+to+format+a+resume"
+            },
+            {
+                "name": "Resume Formatting Tips",
+                "url": "https://www.google.com/search?q=resume+formatting+tips"
+            }
+        ],
+        "completed": false
+    }
+]

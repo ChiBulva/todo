@@ -1,0 +1,62 @@
+[
+    {
+        "description": "Declutter the room",
+        "detail": "Remove any unnecessary items and organize belongings.",
+        "help_links": [
+            {
+                "name": "Organizing Tips",
+                "url": "https://www.youtube.com/results?search_query=how+to+organize+a+room"
+            },
+            {
+                "name": "Decluttering Techniques",
+                "url": "https://www.google.com/search?q=how+to+declutter+a+room"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Dust and wipe surfaces",
+        "detail": "Clean all surfaces, including furniture, shelves, and windowsills.",
+        "help_links": [
+            {
+                "name": "Dusting Tips",
+                "url": "https://www.youtube.com/results?search_query=how+to+dust+room+surfaces"
+            },
+            {
+                "name": "Surface Cleaning Techniques",
+                "url": "https://www.google.com/search?q=how+to+clean+room+surfaces"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Vacuum or sweep the floor",
+        "detail": "Remove dirt and debris from the floor using a vacuum cleaner or broom.",
+        "help_links": [
+            {
+                "name": "Vacuuming Tips",
+                "url": "https://www.youtube.com/results?search_query=how+to+vacuum+a+room"
+            },
+            {
+                "name": "Sweeping Techniques",
+                "url": "https://www.google.com/search?q=how+to+sweep+a+room"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Mop the floor",
+        "detail": "Clean the floor using a mop and appropriate cleaning solution.",
+        "help_links": [
+            {
+                "name": "Mopping Tips",
+                "url": "https://www.youtube.com/results?search_query=how+to+mop+a+room"
+            },
+            {
+                "name": "Floor Cleaning Techniques",
+                "url": "https://www.google.com/search?q=how+to+clean+room+floors"
+            }
+        ],
+        "completed": false
+    }
+]
