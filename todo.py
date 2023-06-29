@@ -31,5 +31,13 @@ def complete_task(todo_list, task_id):
 
     return jsonify(success=True)
 
+@app.route('/get_tasks/<string:todo_list>')
+def get_tasks(todo_list):
+    with open(f'./static/json/tdl/{todo_list}.json', 'r') as file:
+        tasks = json.load(file)
+    return jsonify(tasks=tasks)
+
+	
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8081)
+
