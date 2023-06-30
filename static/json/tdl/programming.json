@@ -1,0 +1,51 @@
+[
+  {
+    "description": "Learn basic programming concepts",
+    "detail": "Start with fundamental programming concepts like variables, data types, control structures, and functions.",
+    "help_links": [
+      {
+        "name": "Variables and Data Types",
+        "url": "https://www.youtube.com/results?search_query=how+to+variables+and+data+types"
+      },
+      {
+        "name": "Control Structures",
+        "url": "https://www.youtube.com/results?search_query=how+to+control+structures"
+      },
+      {
+        "name": "Functions",
+        "url": "https://www.youtube.com/results?search_query=how+to+functions"
+      }
+    ],
+    "completed": false
+  },
+  {
+    "description": "Learn a programming language",
+    "detail": "Choose a programming language that interests you and learn its syntax, features, and best practices.",
+    "help_links": [
+      {
+        "name": "Python Programming",
+        "url": "https://www.youtube.com/results?search_query=how+to+python+programming"
+      },
+      {
+        "name": "JavaScript Programming",
+        "url": "https://www.youtube.com/results?search_query=how+to+javascript+programming"
+      }
+    ],
+    "completed": false
+  },
+  {
+    "description": "Practice coding exercises",
+    "detail": "Solve coding exercises and challenges to reinforce your understanding of programming concepts.",
+    "help_links": [
+      {
+        "name": "LeetCode",
+        "url": "https://www.youtube.com/results?search_query=how+to+solve+coding+exercises+on+LeetCode"
+      },
+      {
+        "name": "HackerRank",
+        "url": "https://www.youtube.com/results?search_query=how+to+solve+coding+exercises+on+HackerRank"
+      }
+    ],
+    "completed": false
+  }
+]

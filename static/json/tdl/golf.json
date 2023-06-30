@@ -1,0 +1,73 @@
+[
+    {
+        "description": "Learn the basic rules of golf",
+        "detail": "Understand the rules and etiquette of golf to play the game correctly.",
+        "help_links": [
+            {
+                "name": "Basic Rules of Golf",
+                "url": "https://www.youtube.com/results?search_query=how+to+learn+the+basic+rules+of+golf"
+            },
+            {
+                "name": "Golf Etiquette",
+                "url": "https://www.google.com/search?q=how+to+learn+golf+etiquette"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Get golf clubs and equipment",
+        "detail": "Acquire the necessary golf clubs, balls, tees, and other equipment.",
+        "help_links": [
+            {
+                "name": "Choosing Golf Clubs",
+                "url": "https://www.youtube.com/results?search_query=how+to+choose+golf+clubs"
+            },
+            {
+                "name": "Golf Equipment Checklist",
+                "url": "https://www.google.com/search?q=golf+equipment+checklist"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Take golf lessons or join a golf clinic",
+        "detail": "Improve your golf skills by taking lessons from a golf instructor or participating in a golf clinic.",
+        "help_links": [
+            {
+                "name": "Golf Lessons for Beginners",
+                "url": "https://www.youtube.com/results?search_query=how+to+take+golf+lessons+for+beginners"
+            },
+            {
+                "name": "Golf Clinics Near Me",
+                "url": "https://www.google.com/search?q=golf+clinics+near+me"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Practice your golf swing",
+        "detail": "Dedicate time to practicing your golf swing and improving your technique.",
+        "help_links": [
+            {
+                "name": "Golf Swing Basics",
+                "url": "https://www.youtube.com/results?search_query=how+to+improve+your+golf+swing"
+            },
+            {
+                "name": "Golf Swing Drills",
+                "url": "https://www.google.com/search?q=golf+swing+drills"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Play rounds of golf at a golf course",
+        "detail": "Start playing rounds of golf at a local golf course to gain experience and practice your skills.",
+        "help_links": [
+            {
+                "name": "Golf Courses Near Me",
+                "url": "https://www.google.com/search?q=golf+courses+near+me"
+            }
+        ],
+        "completed": false
+    }
+]

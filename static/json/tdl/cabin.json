@@ -1,0 +1,92 @@
+[
+    {
+        "description": "Research log cabin construction techniques",
+        "detail": "Gather information on different log cabin construction methods, including traditional and modern techniques.",
+        "help_links": [
+            {
+                "name": "Log Cabin Construction Basics",
+                "url": "https://www.youtube.com/results?search_query=how+to+build+a+log+cabin"
+            },
+            {
+                "name": "Log Cabin Construction Books",
+                "url": "https://www.google.com/search?q=best+books+on+log+cabin+construction"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Acquire necessary permits and land",
+        "detail": "Check local building regulations, obtain necessary permits, and secure a suitable piece of land for constructing the log cabin.",
+        "help_links": [
+            {
+                "name": "Building Permits Guide",
+                "url": "https://www.youtube.com/results?search_query=how+to+obtain+building+permits"
+            },
+            {
+                "name": "Land Purchase Tips",
+                "url": "https://www.google.com/search?q=tips+for+buying+land+for+log+cabin"
+            }
+        ],
+        "completed": true
+    },
+    {
+        "description": "Prepare the construction site",
+        "detail": "Clear the site, level the ground, and make necessary preparations before starting the log cabin construction.",
+        "help_links": [
+            {
+                "name": "Site Preparation Techniques",
+                "url": "https://www.youtube.com/results?search_query=how+to+prepare+a+construction+site"
+            },
+            {
+                "name": "Land Clearing Equipment",
+                "url": "https://www.google.com/search?q=equipment+for+clearing+land+for+log+cabin"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Build the log cabin structure",
+        "detail": "Construct the log cabin walls, roof, and foundation according to the chosen construction technique.",
+        "help_links": [
+            {
+                "name": "Log Cabin Building Process",
+                "url": "https://www.youtube.com/results?search_query=log+cabin+building+process"
+            },
+            {
+                "name": "Log Cabin Construction Tools",
+                "url": "https://www.google.com/search?q=essential+tools+for+building+a+log+cabin"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Install utilities and amenities",
+        "detail": "Install plumbing, electrical systems, insulation, and any desired amenities to make the log cabin functional and comfortable.",
+        "help_links": [
+            {
+                "name": "Plumbing Installation Guide",
+                "url": "https://www.youtube.com/results?search_query=how+to+install+plumbing+in+a+log+cabin"
+            },
+            {
+                "name": "Electrical Wiring Basics",
+                "url": "https://www.youtube.com/results?search_query=log+cabin+electrical+wiring+basics"
+            }
+        ],
+        "completed": false
+    },
+    {
+        "description": "Finish the interior and exterior",
+        "detail": "Complete interior finishing touches like flooring, insulation, and wall treatments. Also, finish the exterior with paint or stain.",
+        "help_links": [
+            {
+                "name": "Log Cabin Interior Design Ideas",
+                "url": "https://www.google.com/search?q=log+cabin+interior+design+ideas"
+            },
+            {
+                "name": "Exterior Finishing Techniques",
+                "url": "https://www.youtube.com/results?search_query=log+cabin+exterior+finishing+techniques"
+            }
+        ],
+        "completed": false
+    }
+]
