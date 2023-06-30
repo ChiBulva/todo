@@ -5,45 +5,59 @@
     <meta charset="UTF-8">
     <title>To-Do List</title>
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 20px;
-    }
-
-    h1 {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    li {
-        margin-bottom: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 10px;
-    }
-
-    .completed {
-        text-decoration: line-through;
-    }
-
-    .task-completion {
-        margin-right: 10px;
-    }
-
-    @media screen and (max-width: 768px) {
-        li {
-            display: flex;
-            flex-direction: column;
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: {{ background_color }};
+            color: {{ foreground_color }};
         }
-    }
-</style>
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .completed {
+            text-decoration: line-through;
+        }
+
+        .task-completion {
+            margin-right: 10px;
+        }
+
+        @media screen and (max-width: 768px) {
+            li {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        .color-change-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 10px;
+            background-color: #ccc;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
@@ -59,13 +73,45 @@
                     }
                 });
             });
-        });
-		
 
+            $('.color-change-button').click(function(){
+                var backgroundColor = prompt("Enter background color (e.g., #f1f1f1):");
+                var foregroundColor = prompt("Enter foreground color (e.g., #333333):");
+                $('body').css({
+                    'background-color': backgroundColor,
+                    'color': foregroundColor
+                });
+
+                $('li').css({
+                    'background-color': foregroundColor,
+                    'color': backgroundColor
+                });
+
+                // Store the colors in local storage
+                localStorage.setItem('background_color', backgroundColor);
+                localStorage.setItem('foreground_color', foregroundColor);
+            });
+
+            // Retrieve colors from local storage and apply them
+            var storedBackgroundColor = localStorage.getItem('background_color');
+            var storedForegroundColor = localStorage.getItem('foreground_color');
+            if (storedBackgroundColor && storedForegroundColor) {
+                $('body').css({
+                    'background-color': storedBackgroundColor,
+                    'color': storedForegroundColor
+                });
+
+                $('li').css({
+                    'background-color': storedForegroundColor,
+                    'color': storedBackgroundColor
+                });
+            }
+        });
     </script>
 </head>
 <body>
     <h1>{{ list_name }} - Task List</h1>
+    <button class="color-change-button">Change Colors</button>
     <ul>
         {% for task in tasks %}
         <li class="{{ 'completed' if task.completed }}">
