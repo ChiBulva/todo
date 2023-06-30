@@ -18,7 +18,7 @@ def todo_lists():
 def todo(todo_list):
     with open(f'./static/json/tdl/{todo_list}.json', 'r') as file:
         tasks = json.load(file)
-    return render_template('todo.html', tasks=tasks, list_name=todo_list)
+    return render_template('todo.html', tasks=tasks, list_name=todo_list, background_color="#FFFFFF", foreground_color="#000000")
 
 @app.route('/todo/<string:todo_list>/complete_task/<int:task_id>', methods=['POST'])
 def complete_task(todo_list, task_id):
@@ -31,13 +31,5 @@ def complete_task(todo_list, task_id):
 
     return jsonify(success=True)
 
-@app.route('/get_tasks/<string:todo_list>')
-def get_tasks(todo_list):
-    with open(f'./static/json/tdl/{todo_list}.json', 'r') as file:
-        tasks = json.load(file)
-    return jsonify(tasks=tasks)
-
-	
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8081)
-
+    app.run(host='0.0.0.0', port=8080)
